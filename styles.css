@@ -6,8 +6,9 @@
 
 body {
     font-family: 'Orbitron', sans-serif;
-    background-color: black;
-    display: flex;
+    background: rgb(2, 0, 36);
+    background: rgb(173,173,180);
+    background: radial-gradient(circle, rgba(173,173,180,1) 0%, rgba(255,255,255,1) 100%);    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -26,6 +27,11 @@ body {
 .shop-name {
     color: #20C20E;
     font-weight: 400;
+    text-shadow:
+        -1px -1px 1px #000,
+        1px -1px 1px #000,
+        -1px 1px 1px #000,
+        1px 1px 1px #000;
 }
 
 .layout-category {
@@ -36,29 +42,49 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-  }
+}
 
-  .a-shop-category {
+.a-shop-category {
     text-decoration: none;
-  }
+}
 
-  .shop-category {
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05)
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.shop-category {
     color: #20C20E;
-    border: #20C20E 1px solid;
+    border: #20C20E 1px dashed;
     flex-wrap: wrap;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
-    margin: 20px;
+    padding: 10px;
+    margin: 10px;
     height: 25vh;
     width: 20vw;
-  }
+    text-shadow:
+        -1px -1px 1px #000,
+        1px -1px 1px #000,
+        -1px 1px 1px #000,
+        1px 1px 1px #000;
+}
 
-  .shop-category:hover {
-    /* background-color: #20C20E; */
+.shop-category:hover {
+    background-color: #20C20E;
     color: white;
+    border: white 1px solid;
     box-shadow: 0 0 100px 20px #20C20E;
     font-weight: 900;
-
-  }
+    animation: pulse 1.5s infinite;
+}
