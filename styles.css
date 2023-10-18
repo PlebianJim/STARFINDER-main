@@ -27,29 +27,43 @@ body {
 }
 
 .header {
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 10vh;
-
+    border: 1px solid #20C20E;
+    margin: 1%;
 }
 
 .main {
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    height: 80vh;
+    gap: 10%;
+}
+
+.test {
+    height: 40%;
+    width: 30%;
+    border: 1px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer {
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 10vh;
+    border: 1px solid #20C20E;
+    margin: 1%;
+
 }
 
 @media only screen and (max-width: 768px) {
