@@ -76,7 +76,7 @@ body {
     font-family: 'Orbitron', sans-serif;
     color: #20C20E;
     width: 90%;
-    padding: 1%;
+    padding: 3%;
     margin: 1%;
     font-size: 10px;
 }
@@ -155,7 +155,6 @@ ul {
 
 li {
     margin-bottom: 10px;
-    /* Add margin-bottom to create the gap */
 }
 
 .product-container {
