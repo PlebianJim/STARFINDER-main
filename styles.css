@@ -163,13 +163,6 @@ body {
     text-align: center;
 }
 
-@media (max-width: 768px) {
-    .product-container-img {
-      width: 250px;
-      height: 250px;
-    }
-  }
-
 .category-select {
     height: 150px;
     width: 150px;
@@ -220,5 +213,9 @@ body {
     }
 }
 
-
-
+@media (max-width: 768px) {
+    .product-container-img {
+        width: 250px;
+        height: 250px;
+    }
+}
