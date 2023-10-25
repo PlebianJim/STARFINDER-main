@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/8ada09e1e0.js" crossorigin="anonymous"></script>
     <script src="main.js" defer></script>
     <title>Starfinder - Infosphere Home</title>
 </head>
@@ -16,26 +17,39 @@
 <body>
     <section class="layout-container">
         <div class="header">
-           <h1>Hello</h1>
-           <h1>Plebian Jim's Regular Stock</h1>
-           <h1>Goodbye</h1> 
+            <h1>Plebian Jim's Regular Stock</h1>
+            <div class="header-bottom-half">
+                <div class="header-bottom-half-left">
+                    <div class="search-bar">
+                        <form action='https://www.romancart.com/search.asp'>
+                            <input type=hidden value=68069 name=storeid>
+                            <input class="form-text" type=text value='' name=searchterm
+                                placeholder="Search the infosphere...">
+                            <input class="form-button" type=submit value='Go'>
+                        </form>
+                    </div>
+                </div>
+                <div class="header-bottom-half-right">
+                    <a href="https://secure.romancart.com/cart.asp"><i class="fa-solid fa-cart-shopping fa-lg"
+                            style="color: #20c20e;"></i></a>
+                </div>
+            </div>
         </div>
         <div class="main">
-            <div class="test">1</div>
-            <div class="test">2</div>
-            <div class="test">3</div>
-            <div class="test">4</div>
-            <div class="test">5</div>
-            <div class="test">6</div>
-            <div class="test">7</div>
-            <div class="test">8</div>
-            <div class="test">9</div>
-            <div class="test">10</div>
+            <a class="category-a" href="category-page-mini-figures.html"><div class="category-select">Mini Figures</div></a>
+            <a class="category-a"  href=""><div class="category-select">Offical Books</div></a>
+            <a class="category-a"  href=""><div class="category-select">User Created Adventures Paths</div></a>
+            <a class="category-a"  href=""><div class="category-select">GM Screens</div></a>
+            <a class="category-a"  href=""><div class="category-select">Scatter Terrain</div></a>
+            <a class="category-a"  href=""><div class="category-select">Dice</div></a>
+            <a class="category-a"  href=""><div class="category-select">Find a game near you</div></a>
+            <a class="category-a"  href=""><div class="category-select">VTT Software</div></a>
+            <a class="category-a"  href=""><div class="category-select">Battlemaps</div></a>
+            <a class="category-a"  href=""><div class="category-select">Ambient Audio</div></a>
         </div>
         <div class="footer">
-            <h1>Goodbye</h1>
+            <h1 class="footer-h1">&copy Driftrock Four - Fingers, Rey, Paulo and Harambe</h1>
         </div>
     </section>
 </body>
-
 </html>
