@@ -103,6 +103,14 @@ body {
     color: #20C20E;
 }
 
+.user-generated-ap-description {
+    display: flex;
+    width: 90%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
 .main {
     width: 90%;
     height: 100%;
@@ -156,6 +164,11 @@ li {
     margin-bottom: 10px;
 }
 
+.heading-descriptor {
+    text-align: center;
+    text-decoration: underline;
+}
+
 .product-container {
     display: flex;
     flex-direction: column;
@@ -165,6 +178,8 @@ li {
     border: 1px solid #20C20E;
     margin: 2%;
     padding: 2%;
+    width: 40%;
+    gap: 20px;
 }
 
 .product-container-hardcover-pdf {
@@ -187,6 +202,7 @@ li {
     align-items: center;
     text-align: center;
     margin-bottom: 5%;
+    width: 100%;
 }
 
 .product-container-p {
@@ -199,6 +215,7 @@ li {
     border: 1px solid #20C20E;
     padding: 2%;
 }
+
 
 .product-container-add-to-basket {
     font-family: 'Orbitron', sans-serif;
@@ -284,6 +301,10 @@ li {
     .product-container-img {
         width: 250px;
         height: 250px;
+    }
+
+    .product-container {
+        width: 100%;
     }
 
     .product-container-hardcover-pdf {
