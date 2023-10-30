@@ -155,14 +155,11 @@ body {
     text-decoration: underline;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
-}
 
 li {
     margin-bottom: 10px;
 }
+
 
 .heading-descriptor {
     text-align: center;
@@ -181,6 +178,111 @@ li {
     width: 40%;
     gap: 20px;
 }
+
+.product-container-gm-screen {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #20C20E;
+    width: 90%;
+}
+
+.product-container-gm-screen-top {
+    display: flex;
+    width: 100%;
+}
+
+.product-container-gm-screen-top-image-left {
+    width: 50%;
+}
+
+.product-container-gm-screen-top-image-right {
+    width: 50%;
+}
+
+.modifier-choice {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.modifier-choice-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    text-align: center;
+    background-color: transparent;
+    color: #20C20E;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    border: 1px solid #20C20E;
+    padding: 1%;
+    margin: 2%;
+    transition: box-shadow 0.3s ease;
+}
+
+.modifier-choice-form-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    text-align: center;
+    background-color: transparent;
+    color: #20C20E;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    border: 1px solid #20C20E;
+    padding: 1%;
+    margin: 2%;
+    transition: box-shadow 0.3s ease;
+}
+
+.modifier-choice-form-button:hover {
+    box-shadow: 0 0 10px 5px #20C20E;
+    background-color: #20C20E;
+    color: white;
+    cursor: pointer;
+}
+
+.modifier-choice-form select:focus {
+    background-color: black;
+}
+
+.product-container-gm-screen-bottom {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #20C20E;
+}
+
+.product-container-gm-screen-bottom-left {
+    display: flex;
+    border: 1px solid #20C20E;
+    width: 25%;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2%;
+}
+
+.product-container-gm-screen-bottom-left-p {
+    text-decoration: underline;
+    margin-left: 1%;
+    text-align: center;
+    padding: 5%;
+    font-weight: 900;
+}
+
+.product-container-gm-screen-bottom-right {
+    display: flex;
+    border: 1px solid #20C20E;
+    width: 50%;
+    flex: 2;
+    flex-direction: column;
+    padding: 2%;
+}
+
 
 .product-container-hardcover-pdf {
     width: 100%;
@@ -318,5 +420,20 @@ li {
     .main-vtt-page-left-section,
     .main-vtt.page-right-section {
         width: 100%;
+    }
+
+    .product-container-gm-screen-bottom-left {
+        flex-direction: column;
+        font-size: 10px;
+        padding: 2%;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    .product-container-gm-screen-bottom {
+        display: flex;
+        flex-direction: row;
     }
 }
