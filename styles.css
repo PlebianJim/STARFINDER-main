@@ -227,6 +227,7 @@ li {
 .product-container-quantity-enter:focus {
     outline: none;
     border: 1px solid #20C20E;
+    caret-color: #20C20E;
 }
 
 .category-select {
