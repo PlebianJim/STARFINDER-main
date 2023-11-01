@@ -164,6 +164,7 @@ li {
 .heading-descriptor {
     text-align: center;
     text-decoration: underline;
+    margin: 2%;
 }
 
 .product-container {
@@ -198,6 +199,89 @@ li {
 .product-container-gm-screen-top-image-right {
     width: 50%;
 }
+
+/***** Section *****/
+
+.product-container-dice {
+    display: flex;
+    height: 100%;
+    width: 90%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-container-dice-left {
+    display: flex;
+    width: 25%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-container-dice-left img {
+    margin: 1%;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #20C20E;
+    overflow: auto;
+}
+
+.product-container-dice-right {
+    display: flex;
+    border: 1px solid #20C20E;
+    width: 60%;
+}
+
+.buy-button-diceSet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #20C20E;
+    padding: 2%;
+    margin: 2%;
+    width: 90%;
+    flex-wrap: wrap;
+}
+
+.buy-button-diceSet form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #20C20E;
+    width: 100%;
+    padding: 2%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2%;
+    gap: 7px;
+}
+
+.buy-button-diceSet form input {
+    border: #20C20E 1px solid;
+    background-color: transparent;
+    color: #20C20E;
+    font-family: 'Orbitron', sans-serif;
+    padding: 1%;
+}
+
+.buy-button-diceSet form input:hover {
+    box-shadow: 0 0 10px 5px #20C20E;
+    background-color: #20C20E;
+    color: white;
+    cursor: pointer;
+}
+
+.dice-select {
+    background-color: black;
+    color: #20C20E;
+    border: #20C20E 1px solid;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
 
 .modifier-choice {
     display: flex;
@@ -281,6 +365,17 @@ li {
     flex: 2;
     flex-direction: column;
     padding: 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-container-dice-description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2%;
+    margin: 2%;
 }
 
 
@@ -405,12 +500,29 @@ li {
         height: 250px;
     }
 
+    .product-container-dice-right {
+        width: 90%;
+    }
+
+    .product-container-dice-left {
+        width: 80%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
     .product-container {
         width: 100%;
+        flex-direction: row;
     }
 
     .product-container-hardcover-pdf {
         flex-direction: column;
+    }
+
+    .product-container-dice {
+        flex-direction: column;
+        width: 100%;
     }
 
     .main-vtt-page {
