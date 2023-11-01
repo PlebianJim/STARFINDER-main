@@ -473,6 +473,40 @@ li {
     padding-top: 5%;
 }
 
+.accomodation-description {
+    width: 90%;
+    padding: 5%;
+}
+
+.accomodation-form {
+    border: 1px solid #20C20E;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    padding: 5%;
+}
+
+.accomodation-form select {
+    background-color: black;
+    color: #20C20E;
+    border: transparent;
+}
+
+.accomodation-form input:hover {
+    box-shadow: 0 0 10px 5px #20C20E;
+    background-color: #20C20E;
+    color: white;
+    cursor: pointer;
+}
+
+.accomodation-form input {
+    background-color: black;
+    color: #20C20E;
+    border: transparent;
+}
+
+
 .footer {
     width: 90%;
     display: flex;
