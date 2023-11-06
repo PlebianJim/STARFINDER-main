@@ -509,6 +509,13 @@ li {
     border: transparent;
 }
 
+.select-font {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.select-font-book {
+    
+}
 
 .footer {
     width: 90%;
