@@ -454,17 +454,20 @@ li {
 }
 
 .image-container-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
-    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    border: 1px solid #20C20E;
+    width: 95%;
 }
 
 .image-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    border: 1px solid #20C20E;
+    text-align: center;
     padding: 5%;
 }
 
